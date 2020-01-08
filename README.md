@@ -1,1 +1,1 @@
-# IncCHUI
+This repository contains the source code for the paper "Towards efficiently mining closed high utility itemsets from incremental databases", published in Knowledge-Based Systems journal. For more information, please contact the main author.
