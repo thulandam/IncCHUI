@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.LineNumberReader;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
-import util.WriteToCSVFile;
+//import util.WriteToCSVFile;
 
 /**
  * Example of how to use the IncCHUI algorithm from the source code by
@@ -85,8 +85,10 @@ public class MainTestIncCHUI {
         
         //WRITE ALL THE CHUIs found until now to a file
         algo.writeCHUIsToFile(output);
-       // WriteToCSVFile.writeCsvFile(addedratio+"", min_utility, algo.timeData, 4,output+".xls");
-        WriteToCSVFile.writeCsvFile(min_utility+"", min_utility, algo.memData,4, output+".xls");
+
+        //Write your own code to output statistics to other file formats, e.g., xls file
+        // WriteToCSVFile.writeCsvFile(addedratio+"", min_utility, algo.timeData, 4,output+".xls");
+        // WriteToCSVFile.writeCsvFile(min_utility+"", min_utility, algo.memData,4, output+".xls");
     }
 
     /**
